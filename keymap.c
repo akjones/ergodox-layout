@@ -223,13 +223,13 @@ uint32_t layer_state_set_user(uint32_t state) {
     ergodox_right_led_2_off();
     ergodox_right_led_3_off();
     switch (layer) {
-    case 1:
+    case QWERTY:
         ergodox_right_led_1_on();
         break;
-    case 2:
+    case SYM_AND_MOV:
         ergodox_right_led_2_on();
         break;
-    case 3:
+    case MEDIA:
         ergodox_right_led_3_on();
         break;
     case 4:
