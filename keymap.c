@@ -47,7 +47,7 @@ static void _td_brackets_reset (qk_tap_dance_state_t *state, void *user_data);
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [COLEMAK] = LAYOUT_ergodox(
         KC_ESCAPE,KC_1,KC_2,KC_3,KC_4,KC_5,KC_ASTG,
-        KC_TAB,KC_Q,KC_W,KC_F,KC_G,KC_J,TD(CT_LBP),
+        KC_TAB,KC_Q,KC_W,KC_F,KC_P,KC_G,TD(CT_LBP),
         KC_LCTRL,KC_A,KC_R,KC_S,KC_T,KC_D,
         KC_LSHIFT,KC_Z,KC_X,KC_C,KC_V,KC_B,KC_HYPR,
         OSL(SYM_AND_MOV),KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,
