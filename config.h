@@ -3,7 +3,7 @@
   See config.h options at https://docs.qmk.fm/#/config_options?id=the-configh-file
 */
 #undef ONESHOT_TIMEOUT
-#define ONESHOT_TIMEOUT 1077
+#define ONESHOT_TIMEOUT 538
 
 #define AUTO_SHIFT_TIMEOUT 158
 
