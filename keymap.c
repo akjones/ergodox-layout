@@ -29,8 +29,8 @@ enum custom_keycodes {
 };
 
 enum {
-    COLEMAK = 0,
-    QWERTY,
+    COLEMAK_MAC = 0,
+    COLEMAC_LINUX,
     SYM_AND_MOV,
     MEDIA,
 };
@@ -223,7 +223,7 @@ uint32_t layer_state_set_user(uint32_t state) {
     ergodox_right_led_2_off();
     ergodox_right_led_3_off();
     switch (layer) {
-    case QWERTY:
+    case COLEMAK_LINUX:
         ergodox_right_led_1_on();
         break;
     case SYM_AND_MOV:
